@@ -1,0 +1,89 @@
+   body {
+    background-color:rgb(12, 13, 14);
+}
+/* =========================
+   MI PALETA DE COLORES
+   =========================
+   Primario:    #1D3557
+   Secundario:  #457B9D
+   Fondo:       #FDFBF7
+   Texto:       #2C2A29
+   ========================= */
+/* Reset básico */
+
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing:border-box;
+}
+.container{ 
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+
+}
+
+body {
+    font-family: 'Montserrat:ital,wght@0,100..900;1,100..900', sans-serif;
+    background-color:rgb(17, 17, 17);
+    color:rgb(106, 185, 211);
+}
+header {
+    display:flex;
+    justify-content:end;
+    background-color:rgb(214, 139, 164);
+    color: rgb(241, 247, 247);
+    padding: 20px;px;
+    text-align: center;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat:ital,wght@0,100..900;1,100..900', sans-serif;
+     color:rgb(233, 239, 241);
+}
+
+header h1 {
+    margin-bottom:auto;
+}
+h1 mi_nombre {
+    display: flex;
+    
+}
+
+nav a {
+    color: rgb(216, 9, 43);
+    text-decoration:none;
+    margin:10px;
+}
+
+nav a:hover {
+    color:darkblue;
+}
+
+section {
+    padding: /* Espacio interno ej: 40px 20px */;
+    max-width: 800px;
+    margin:auto; /* Centra la sección */
+}
+
+section h2 {
+    margin:5%;
+    color:rgb(244, 245, 244);
+}
+
+footer {
+    background-color:rgb(235, 168, 199);
+    color: rgb(218, 254, 255);
+    text-align: center;
+    padding: 20px;%;
+    margin-top::after;
+}
+img {
+    max-width: 400px;
+    border-radius:50% ;
+    border: 6px solid ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
